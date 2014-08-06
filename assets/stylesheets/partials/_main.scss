@@ -1,0 +1,12 @@
+#side-navigation {
+  background:$orange;
+  position:absolute;
+  top:90px;
+  bottom:-110px;
+  width: 165px;
+  overflow:hidden;
+  z-index:200;
+}
+#site-main {
+  height: 2000px;
+}

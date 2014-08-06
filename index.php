@@ -17,11 +17,51 @@
   <![endif]-->
 </head>
 <body>
-<h1>Hello, world!</h1>
+  <header id="header-wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2">
+          <div class="item-container">
+            <a id="header-logo" href="/"><img class="center-block" src="assets/images/arches-insurance-logo.png" alt="Arches Insurance Logo" /></a>
+          </div>
 
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="assets/javascript/bootstrap.js"></script>
+        </div><!-- end .col-md-2 -->
+        <div class="col-md-10">
+          <div class="item-container">
+            <img id="header-tagline" src="assets/images/tagline.png" alt="Arches Insurance Logo" />
+            <h3 id="member-number">Member Support <strong>1-855-488-0620</strong></h3>
+          </div>
+
+        </div>
+      </div><!-- end .col-md-10 -->
+    </div><!-- end .row -->
+  </header><!-- end #header-wrapper -->
+  <div class="container">
+    <div id="side-navigation">
+
+    </div>
+
+  </div>
+  <main id="site-main">
+
+  </main>
+  <footer id="footer-wrapper">
+
+  </footer>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script type="text/javascript">
+    var elementPosition = jQuery('#side-navigation').offset();
+
+    jQuery(window).scroll(function(){
+      if(jQuery(window).scrollTop() > elementPosition.top){
+        jQuery('#side-navigation').css('position','fixed').css('top','0');
+      } else {
+        jQuery('#side-navigation').css('position','absolute').css('top','90px');
+      }
+    });
+  </script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="assets/javascript/bootstrap.js"></script>
 </body>
 </html>
