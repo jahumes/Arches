@@ -7,7 +7,16 @@
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-2 col-md-9 col-md-offset-3">
                     <div class="registration-page members-registration">
-                        <h2>Members Registration</h2>
+                      <h1 class="page-title">Members Registration</h2>
+                        <div class="breadcrumbs">
+                          <ul class="links list-unstyled list-inline pull-left">
+                            <li><a href="#">Welcome to Arches Portal</a></li>
+                            <li><a href="/registration/">Registration</a></li>
+                            <li class="current">Step 3: Confirm Download</li>
+                          </ul>
+                          <p class="message pull-left">(Enter your information)</p>
+                          <div class="clearfix"></div>
+                        </div>
                         <div class="row">
                             <div class="col-lg-4 position">
                                 <div class="progress-registration">
@@ -38,10 +47,10 @@
                                         you will need to take a moment and download the Armor Application.
                                         It only takes a few minutes. Thank You.
                                     </p>
-                                    <p class="download">
+                                    <p class="download text-right">
                                         <a href="#">
-                                            <span class="glyphicon glyphicon-cloud-download"></span>
-                                            <span>DOWNLOAD</span>
+                                          <span class="text">DOWNLOAD</span>
+                                          <span class="icon"></span>
                                         </a>
                                     </p>
                                 </div>

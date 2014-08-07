@@ -21,6 +21,9 @@
     bottom: 0px;
     right: 0;
     color: $tan;
+    strong {
+      font-weight: 500;
+    }
   }
   .item-container {
     position: relative;

@@ -8,7 +8,7 @@
       $AutoPlay: true,                                   //[Optional] Whether to auto play, to enable slideshow, this option must be set to true, default value is false
       $SlideDuration: 800,                                //[Optional] Specifies default duration (swipe) for slide in milliseconds, default value is 500
       $AutoPlayInterval: 6000,
-      $SlideEasing: $JssorEasing$.$EaseLinear,
+      $SlideshowOptions: { $Class: $JssorSlideshowRunner$, $Transitions: [{ $Duration:700, $Fade: true, $Opacity:2 }] },
       $BulletNavigatorOptions: {                                //[Optional] Options to specify and enable navigator or not
         $Class: $JssorBulletNavigator$,                       //[Required] Class to create navigator instance
         $ChanceToShow: 2,                               //[Required] 0 Never, 1 Mouse Over, 2 Always

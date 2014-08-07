@@ -18,7 +18,7 @@
     ul.sub-menu {
       display: none;
       position: absolute;
-      background: rgba(138,121,103,0.7);
+      background: rgba(138,121,103,0.9);
       width: 170px;
       right: -170px;
       top:10px;
@@ -64,7 +64,7 @@
       position: absolute;
       left: 50%;
       top: 50%;
-      transform: translate(-50%, -50%);
+      @include translate(-50%, -50%);
       width:100%;
       padding: 0 19px;
     }

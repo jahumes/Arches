@@ -11,7 +11,7 @@
                         <div class="breadcrumbs">
                           <ul class="links list-unstyled list-inline pull-left">
                             <li><a href="#">Welcome to Arches Portal</a></li>
-                            <li><a href="#">Registration</a></li>
+                            <li><a href="/registration/">Registration</a></li>
                             <li class="current">Step 1: Member Validation</li>
                           </ul>
                           <p class="message pull-left">(Enter your information)</p>
@@ -63,10 +63,11 @@
                                     </div>
                                     <div class="help">
                                         <a href="">
-                                            <span class="icon"></span>Need Help?
+                                            <span class="icon"></span>
+                                          <span class="text">Need Help?</span>
                                         </a>
                                     </div>
-                                    <a href="">View Registration Demo</a>
+                                    <p><a href="">View Registration Demo</a></p>
                                     <div class="continue">
                                         <a href="create-profile.php">
                                             <span class="block"></span>
