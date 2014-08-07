@@ -4,6 +4,46 @@ body {
 form {
   .form-control {
     @include box-shadow( 0 0 5px rgba(138,121,103,1));
+    &::-webkit-input-placeholder {
+      color: rgb(138,121,103);
+      color: rgba(138,121,103, 0.9);
+    }
+    &::-moz-placeholder {
+
+      color: rgba(0,5,143,.5);
+      text-transform: uppercase;
+    }
+    &:-moz-placeholder {
+      color: rgba(0,5,143,.5);
+      text-transform: uppercase;
+    }
+    &:-ms-input-placeholder {
+      color: rgba(0,5,143,.5);
+      text-transform: uppercase;
+    }
+    &:required {
+      &::-webkit-input-placeholder:before {
+        content: "* ";
+        color: $orange-dark;
+        font-weight: bold;
+      }
+      &::-moz-placeholder:before {
+        content: "* ";
+        color: $orange-dark;
+        font-weight: bold;
+      }
+      &:-moz-placeholder:before {
+        content: "* ";
+        color: $orange-dark;
+        font-weight: bold;
+      }
+      &:-ms-input-placeholder:before {
+        content: "* ";
+        content: "* ";
+        color: $orange-dark;
+        font-weight: bold;
+      }
+    }
   }
   .help-block {
     a {
@@ -14,6 +54,49 @@ form {
       }
     }
   }
+}
+.breadcrumbs {
+  font-size: $font-size-base + 2;
+  margin-bottom: 15px;
+  a {
+    color: $orange-light;
+
+    text-decoration: underline;
+    &:hover {
+      color: $orange;
+      text-decoration: none;
+    }
+  }
+  .current {
+    color: $orange;
+    text-decoration: none;
+    font-style: italic;
+  }
+  li {
+    position: relative;
+    padding-right: 10px;
+    &:after {
+      content: '>';
+      color: $orange;
+      position: absolute;
+      right: -4px;
+    }
+    &:last-child {
+      &:after {
+        content: "";
+      }
+    }
+  }
+  .message {
+    font-size: $font-size-base - 3;
+    line-height: 20px;
+  }
+}
+h1.page-title {
+  margin-top:0;
+  text-transform: uppercase;
+  font-size: $font-size-h1 - 10;
+  font-weight: bold;
 }
 
 p a {

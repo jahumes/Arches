@@ -24,10 +24,21 @@
         width: 120px;
         line-height: 17px;
         font-weight: 300;
-        height:55px;
+        height:30px;
         margin-bottom: 100px;
+        position: relative;
         &:last-child {
           margin-bottom: 0;
+        }
+        &.active {
+          height:55px;
+        }
+        h4 {
+          position: absolute;
+          margin:0;
+          top: 50%;
+          font-size: 21px;
+          @include translate(0,-50%);
         }
       }
     }

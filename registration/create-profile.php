@@ -7,9 +7,7 @@
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-2 col-md-9 col-md-offset-3">
                     <div class="registration-page members-registration">
-                        <div class="row">
-                            <h2>Members Registration</h2>
-                        </div>
+                        <h2>Members Registration</h2>
                         <div class="row">
                             <div class="col-lg-4 position">
                                 <div class="progress-registration">
@@ -24,22 +22,22 @@
                                         <div class="icon"></div>
                                     </div>
                                     <div class="step-names">
-                                        <div class="name">Member Validation</div>
-                                        <div class="name">Create Profile</div>
-                                        <div class="name">Confirm Download Armored App</div>
+                                      <div class="name"><h4>Member Validation</h4></div>
+                                      <div class="name active"><h4>Create Profile</h4></div>
+                                      <div class="name"><h4>Confirm Download Armored App</h4></div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-5 member-validation-form">
                                 <form action="">
                                     <div class="form-group">
-                                        <input class="form-control" placeholder="Username:" type="text"/>
+                                        <input class="form-control" placeholder="Username" type="text"/>
                                     </div>
                                     <div class="form-group">
-                                        <input class="form-control" placeholder="Password:" type="password"/>
+                                        <input class="form-control" placeholder="Password" type="password"/>
                                     </div>
                                     <div class="form-group">
-                                        <input class="form-control" placeholder="Password:" type="password"/>
+                                        <input class="form-control" placeholder="Password" type="password"/>
                                     </div>
                                     <a href="">View Registration Demo</a>
                                     <div class="continue">
