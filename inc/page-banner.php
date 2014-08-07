@@ -8,7 +8,7 @@
       $AutoPlay: true,                                   //[Optional] Whether to auto play, to enable slideshow, this option must be set to true, default value is false
       $SlideDuration: 800,                                //[Optional] Specifies default duration (swipe) for slide in milliseconds, default value is 500
       $AutoPlayInterval: 6000,
-      $SlideshowOptions: { $Class: $JssorSlideshowRunner$, $Transitions: [{ $Duration:700, $Fade: true, $Opacity:2 }] },
+      $SlideshowOptions: { $Class: $JssorSlideshowRunner$, $Transitions: [{$Duration:700,$Opacity:2,$Brother:{$Duration:1000,$Opacity:2}}] },
       $BulletNavigatorOptions: {                                //[Optional] Options to specify and enable navigator or not
         $Class: $JssorBulletNavigator$,                       //[Required] Class to create navigator instance
         $ChanceToShow: 2,                               //[Required] 0 Never, 1 Mouse Over, 2 Always
@@ -27,16 +27,13 @@
 <div id="page-banner">
   <div class="container">
     <div id="main-slider" style="height: 390px; width: 1280px; position: relative; ">
-      <div u="slides" style="cursor: move; width: 1280px; height: 390px;
+      <div u="slides" style="width: 1280px; height: 390px;
             overflow: hidden;">
         <div><img src="/assets/images/slider/arches-bikes.png" alt=""/></div>
         <div><img src="/assets/images/slider/arches-climb.png" alt=""/></div>
 
       </div>
       <!-- Bullet Navigator Skin Begin -->
-      <style>
-
-      </style>
       <!-- bullet navigator container -->
       <div u="navigator" class="jssorb21" style="position: absolute; bottom: 16px; right: 55px;">
         <!-- bullet navigator item prototype -->
