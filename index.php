@@ -15,6 +15,8 @@
   <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
   <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
   <![endif]-->
+
+
 </head>
 <body>
   <header id="header-wrapper">
@@ -42,8 +44,46 @@
     </div>
 
   </div>
+  <?php include('inc/page-banner.php'); ?>
   <main id="site-main">
+    <div class="container">
+      <div id="page-content">
+        <div class="row">
+          <div class="col-lg-10 col-lg-offset-2 col-md-9 col-md-offset-3">
+            <div class="row">
+              <div class="col-md-4 col-bordered">
+                <h2>Already a Member? Login</h2>
+                <form id="login-form" class="basic-form" role="form">
+                  <div class="form-group">
+                    <label class="sr-only" for="username">Username</label>
+                    <input id="username" name="username" class="form-control" type="text" placeholder="Username" />
+                    <p class="help-block text-right"><a href="">Forgot Your Username?</a></p>
+                  </div>
+                  <div class="form-group">
+                    <label class="sr-only" for="password">Password</label>
+                    <input id="password" name="password" class="form-control" type="password" placeholder="Password" />
+                    <p class="help-block text-right"><a href="">Forgot Your Password?</a></p>
+                  </div>
+                  <div class="arches-actions">
+                    <ul class="text-right">
+                      <li><a href="">Login</a></li>
+                      <li><a href="">Register</a></li>
+                      <li><a href="">Want to Enroll Click Here</a></li>
+                    </ul>
+                  </div>
+                </form>
+              </div>
+              <div class="col-md-4 col-bordered">
+                <h2>Upcoming Events & Reminders</h2>
+              </div>
+              <div class="col-md-4">
 
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </main>
   <footer id="footer-wrapper">
 
@@ -63,5 +103,6 @@
   </script>
   <!-- Include all compiled plugins (below), or include individual files as needed -->
   <script src="assets/javascript/bootstrap.js"></script>
+
 </body>
 </html>
