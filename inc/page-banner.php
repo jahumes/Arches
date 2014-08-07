@@ -29,8 +29,8 @@
     <div id="main-slider" style="height: 390px; width: 1280px; position: relative; ">
       <div u="slides" style="cursor: move; width: 1280px; height: 390px;
             overflow: hidden;">
-        <div><img src="/assets/images/slider/orange-space.png" alt=""/></div>
-        <div><img src="/assets/images/slider/outer-space.png" alt=""/></div>
+        <div><img src="/assets/images/slider/arches-bikes.png" alt=""/></div>
+        <div><img src="/assets/images/slider/arches-climb.png" alt=""/></div>
 
       </div>
       <!-- Bullet Navigator Skin Begin -->
