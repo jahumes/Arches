@@ -32,6 +32,11 @@
           jQuery('#side-navigation').css('position','absolute').css('top','90px');
         }
       });
+      jQuery(function($) {
+        $('.popover-dismiss').popover({
+//          html: true
+        })
+      });
     </script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="assets/javascript/bootstrap.js"></script>

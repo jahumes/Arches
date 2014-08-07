@@ -13,7 +13,10 @@
               <form id="login-form" class="basic-form" role="form">
                 <div class="form-group">
                   <label class="sr-only" for="username">Username</label>
-                  <input id="username" name="username" class="form-control" type="text" placeholder="Username" />
+                  <input id="username" name="username" class="form-control popover-dismiss" type="text" placeholder="Username"
+                         data-toggle="popover" data-html="true" data-container="body" data-placement="top" data-trigger="focus"
+                         data-content="<strong>Need Help?</strong><br />If you do not currently have a proﬁle created, you will need to do so. Only registered users will be able to access the information to your account."
+                    />
                   <p class="help-block text-right"><a href="">Forgot Your Username?</a></p>
                 </div>
                 <div class="form-group">
