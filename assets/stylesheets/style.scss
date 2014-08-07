@@ -1,6 +1,8 @@
 // Import Variables
 @import 'variables';
 
+$icon-font-path: '/assets/fonts/';
+
 // Import Boostrap
 @import 'bootstrap/bootstrap';
 
@@ -9,3 +11,6 @@
 
 // Import Header
 @import 'partials/main';
+
+// Import Header
+@import 'partials/registration';
