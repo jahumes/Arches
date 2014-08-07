@@ -47,5 +47,18 @@
         jssor_slider1_starter('main-slider');
       </script>
     </div>
+    <div id="banner-links">
+      <div class="row">
+        <div class="col-md-10 col-md-offset-2">
+          <ul class="links list-unstyled list-inline">
+            <li><a href="#"><img src="/assets/images/compass-icon.png" alt="Explore Plans" />Explore Plans</a></li>
+            <li><a href="#"><img src="/assets/images/cross-icon.png" alt="Find a Doctor" />Find a Doctor</a></li>
+            <li><a href="#"><img src="/assets/images/motar-icon.png" alt="Find a Pharmacy" />Find a Pharmacy</a></li>
+            <li><a href="#"><img src="/assets/images/people-icon.png" alt="My Network" />My Network</a></li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
   </div>
 </div>
