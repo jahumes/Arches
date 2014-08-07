@@ -42,8 +42,7 @@ p a {
   background: #fff;
   min-height: 200px;
   @include box-shadow(2px 0px 1px 1px rgba(0, 0, 0, 0.2));
-  padding-top: 20px;
-  padding-bottom: 40px;
+  padding: 20px 20px 40px 0;
   .col-bordered {
     &:after {
       content: " ";
@@ -109,8 +108,14 @@ p a {
       text-transform: uppercase;
       text-align: center;
       @include gradient-horizontal($orange,$orange-dark);
-      .month{
-
+      line-height: 1;
+      padding-top:8px;
+      .month {
+        font-size: $font-size-base + 4;
+        padding-left:2px;
+      }
+      .day {
+        font-size: $font-size-base + 15;
       }
     }
     .item-event {
@@ -118,6 +123,30 @@ p a {
       h3 {
         margin-top: 0;
       }
+    }
+  }
+  .box {
+    background: #fff;
+    padding: 20px 30px;
+    .box-title {
+      margin-top:0;
+    }
+    ul.list-unstyled li {
+      margin-bottom: 8px;
+      &:after {
+        content: " ";
+        clear:both;
+        display: table;
+      }
+    }
+    &.shadowed {
+      @include box-shadow(0,0,5px,rgba(0,0,0,0.5));
+    }
+    &.tan {
+      background: $tan;
+    }
+    &.tan-light {
+      background: $tan-light;
     }
   }
 }
