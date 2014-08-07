@@ -8,10 +8,21 @@ form {
   .help-block {
     a {
       font-style: italic;
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
     }
   }
 }
 
+p a {
+  font-style: italic;
+  text-decoration: underline;
+  &:hover {
+    text-decoration: none;
+  }
+}
 
 #side-navigation {
   background:$orange;
@@ -84,6 +95,28 @@ form {
         &:nth-child(5) a:after {
           background: $tan-light;
         }
+      }
+    }
+  }
+  h2 {
+    margin-bottom: 30px;
+  }
+  .events-date-list {
+    .item-date {
+      width:21%;
+      height:64px;
+      color:#fff;
+      text-transform: uppercase;
+      text-align: center;
+      @include gradient-horizontal($orange,$orange-dark);
+      .month{
+
+      }
+    }
+    .item-event {
+      width: 76%;
+      h3 {
+        margin-top: 0;
       }
     }
   }
