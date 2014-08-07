@@ -10,7 +10,13 @@ $icon-font-path: '/assets/fonts/';
 @import 'partials/header';
 
 // Import Header
+@import 'partials/navigation';
+
+// Import Header
 @import 'partials/main';
+
+// Import Header
+@import 'partials/footer';@import 'partials/main';
 
 // Import Header
 @import 'partials/registration';

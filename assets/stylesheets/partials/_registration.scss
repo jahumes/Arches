@@ -18,19 +18,16 @@
 
     .step-names {
       float: left;
-
+      margin-left:8px;
       .name {
         font-size: 17px;
         width: 120px;
         line-height: 17px;
         font-weight: 300;
-
-        &:nth-child(1) {
-          margin-bottom: 118px;
-        }
-
-        &:nth-child(2) {
-          margin-bottom: 84px;
+        height:55px;
+        margin-bottom: 100px;
+        &:last-child {
+          margin-bottom: 0;
         }
       }
     }

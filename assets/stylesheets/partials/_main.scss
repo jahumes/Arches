@@ -24,18 +24,9 @@ p a {
   }
 }
 
-#side-navigation {
-  background:$orange;
-  position:absolute;
-  top:90px;
-  bottom:-110px;
-  width: 170px;
-  overflow:hidden;
-  z-index:200;
-  @include box-shadow(0 0 1px 3px rgba(0,0,0,0.2));
-}
+
 #site-main {
-  height: 2000px;
+
 
 }
 #page-content {
@@ -68,10 +59,14 @@ p a {
       li {
         margin-bottom: 10px;
         position: relative;
-        a {
+        a, button {
           line-height: 38px;
           padding-right: 48px;
-
+          border:none;
+          background: none;
+          &:hover {
+            text-decoration: underline;
+          }
           &:after {
             content: " ";
             position: absolute;
@@ -82,17 +77,25 @@ p a {
             background: $tan;
           }
         }
-        &:nth-child(2) a:after {
-          background: $orange;
+        &:nth-child(2) {
+          a:after, button:after {
+            background: $orange;
+          }
         }
-        &:nth-child(3) a:after {
-          background: $orange-dark;
+        &:nth-child(3) {
+          a:after, button:after {
+            background: $orange-dark;
+          }
         }
-        &:nth-child(4) a:after {
-          background: $orange-light;
+        &:nth-child(4) {
+          a:after, button:after {
+            background: $orange-light;
+          }
         }
-        &:nth-child(5) a:after {
-          background: $tan-light;
+        &:nth-child(5) {
+          a:after, button:after {
+            background: $tan-light;
+          }
         }
       }
     }
