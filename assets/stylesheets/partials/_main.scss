@@ -57,6 +57,17 @@ form {
       }
     }
   }
+  .phone-number {
+    input {
+      width: 53px;
+      display: inline;
+      margin: 0px 4px;
+
+      &:last-child {
+        width: 62px;
+      }
+    }
+  }
 }
 .breadcrumbs {
   font-size: $font-size-base + 2;
@@ -169,6 +180,10 @@ table {
   min-height: 760px;
   @include box-shadow(2px 0px 1px 1px rgba(0, 0, 0, 0.2));
   padding: 20px 20px 40px 0;
+  & > .row > .col-lg-10, & > .row > .col-md-10 {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
   &.home {
     min-height: 200px;
   }
@@ -299,8 +314,10 @@ table {
   .box {
     background: #fff;
     padding: 20px 30px;
+    margin: 20px 0;
     .box-title {
       margin-top:0;
+      margin-bottom:10px;
     }
     ul.list-unstyled li {
       margin-bottom: 8px;

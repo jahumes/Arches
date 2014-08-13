@@ -91,7 +91,7 @@
                       <thead>
                         <tr>
                           <th>Name</th>
-                          <th>Specialization</th>
+                          <th>Speciality</th>
                           <th>Contact #</th>
                           <th>E-Mail Address</th>
                         </tr>
