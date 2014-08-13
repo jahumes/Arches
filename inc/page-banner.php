@@ -1,6 +1,6 @@
-<script src="vendor/jssor/js/jssor.core.js"></script>
-<script src="vendor/jssor/js/jssor.utils.js"></script>
-<script src="vendor/jssor/js/jssor.slider.js"></script>
+<script src="/vendor/jssor/js/jssor.core.js"></script>
+<script src="/vendor/jssor/js/jssor.utils.js"></script>
+<script src="/vendor/jssor/js/jssor.slider.js"></script>
 <script type="text/javascript">
   jssor_slider1_starter = function (containerId) {
 

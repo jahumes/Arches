@@ -20,7 +20,7 @@
                 <li>And much more</li>
               </ul>
               <p>Have dependents? We’ve made it easier for you to access their information. We’ve also updated the options for family access. Learn More</p>
-              <p>On the go? Use Coventry® Mobile</p>
+              <p>On the go? Use Coventry Mobile</p>
               <p>To best view this site, your screen resolution should be set at 1024 x 768 or higher.</p>
             </div>
             <div class="col-md-4 col-bordered">
