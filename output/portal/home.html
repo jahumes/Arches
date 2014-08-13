@@ -1,0 +1,250 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Arches Basic</title>
+
+  <!-- Bootstrap -->
+  <link href="/assets/stylesheets/styles.css" rel="stylesheet">
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+
+</head>
+<body><header id="header-wrapper">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-2">
+        <div class="item-container">
+          <a id="header-logo" href="/"><img class="center-block" src="/assets/images/arches-insurance-logo.png" alt="Arches Insurance Logo" /></a>
+        </div>
+
+      </div><!-- end .col-md-2 -->
+      <div class="col-md-10">
+        <div class="item-container">
+          <img id="header-tagline" src="/assets/images/tagline.png" alt="Arches Insurance Logo" />
+          <h3 id="member-number">Member Support <strong>1-855-488-0620</strong></h3>
+        </div>
+
+      </div>
+    </div><!-- end .col-md-10 -->
+  </div><!-- end .row -->
+</header><!-- end #header-wrapper --><div class="container">
+  <div id="side-navigation">
+    <nav id="main-navigation">
+      <ul class="links">
+        <li>
+          <a href="#">Claims & Authorization</a>
+          <ul class="sub-menu two-col">
+            <li>
+              <ul class="column">
+                <li><a href="#">Explanation of Benfits</a></li>
+                <li><a href="#">Benefits Usage</a></li>
+                <li><a href="#">Prescription Benefits</a></li>
+              </ul>
+            </li>
+            <li>
+              <ul class="column">
+                <li><a href="#">Prescription Information</a></li>
+                <li><a href="#">Current Medications</a></li>
+                <li><a href="#">Prescription Report</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Benefits</a>
+          <ul class="sub-menu">
+            <li><a href="#">Explanation of Benfits</a></li>
+            <li><a href="#">Benefits Usage</a></li>
+            <li><a href="#">Prescription Benefits</a></li>
+            <li><a href="#">Prescription Information</a></li>
+            <li><a href="#">Current Medications</a></li>
+            <li><a href="#">Prescription Report</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Member Health Account</a></li>
+        <li><a href="#">My Health Record</a></li>
+        <li><a href="#">Communications</a></li>
+        <li><a href="#">Links of Interest</a></li>
+      </ul>
+    </nav>
+  </div>
+</div><script src="/vendor/jssor/js/jssor.core.js"></script>
+<script src="/vendor/jssor/js/jssor.utils.js"></script>
+<script src="/vendor/jssor/js/jssor.slider.js"></script>
+<script type="text/javascript">
+  jssor_slider1_starter = function (containerId) {
+
+    var options = {
+      $AutoPlay: true,                                   //[Optional] Whether to auto play, to enable slideshow, this option must be set to true, default value is false
+      $SlideDuration: 800,                                //[Optional] Specifies default duration (swipe) for slide in milliseconds, default value is 500
+      $AutoPlayInterval: 6000,
+      $SlideshowOptions: { $Class: $JssorSlideshowRunner$, $Transitions: [{$Duration:700,$Opacity:2,$Brother:{$Duration:1000,$Opacity:2}}] },
+      $BulletNavigatorOptions: {                                //[Optional] Options to specify and enable navigator or not
+        $Class: $JssorBulletNavigator$,                       //[Required] Class to create navigator instance
+        $ChanceToShow: 2,                               //[Required] 0 Never, 1 Mouse Over, 2 Always
+        $AutoCenter: 0,                                 //[Optional] Auto center navigator in parent container, 0 None, 1 Horizontal, 2 Vertical, 3 Both, default value is 0
+        $Steps: 1,                                      //[Optional] Steps to go for each navigation request, default value is 1
+        $Lanes: 1,                                      //[Optional] Specify lanes to arrange items, default value is 1
+        $SpacingX: 0,                                   //[Optional] Horizontal space between each item in pixel, default value is 0
+        $SpacingY: 0,                                   //[Optional] Vertical space between each item in pixel, default value is 0
+        $Orientation: 1                                 //[Optional] The orientation of the navigator, 1 horizontal, 2 vertical, default value is 1
+      }
+    };
+
+    var jssor_slider1 = new $JssorSlider$(containerId, options);
+  }
+</script>
+<div id="page-banner">
+  <div class="container">
+    <div id="main-slider" style="height: 390px; width: 1422px; position: relative; ">
+      <div u="slides" style="width: 1422px; height: 390px;
+            overflow: hidden;">
+        <div><img src="/assets/images/slider/arches-bikes.png" alt=""/></div>
+        <div><img src="/assets/images/slider/arches-climb.png" alt=""/></div>
+
+      </div>
+      <!-- Bullet Navigator Skin Begin -->
+      <!-- bullet navigator container -->
+      <div u="navigator" class="jssorb21" style="position: absolute; bottom: 16px; right: 140px;">
+        <!-- bullet navigator item prototype -->
+        <div u="prototype" style="POSITION: absolute; WIDTH: 19px; HEIGHT: 19px; text-align:center; line-height:19px; color:White; font-size:12px;"></div>
+      </div>
+      <!-- Bullet Navigator Skin End -->
+
+      <a style="display: none" href="http://www.jssor.com">slideshow</a>
+      <!-- Trigger -->
+      <script>
+        jssor_slider1_starter('main-slider');
+      </script>
+    </div>
+    <div id="banner-links">
+      <div class="row">
+        <div class="col-md-10 col-md-offset-2">
+          <ul class="links list-unstyled list-inline">
+            <li><a href="#"><img src="/assets/images/compass-icon.png" alt="Explore Plans" />Explore Plans</a></li>
+            <li><a href="#"><img src="/assets/images/cross-icon.png" alt="Find a Doctor" />Find a Doctor</a></li>
+            <li><a href="#"><img src="/assets/images/motar-icon.png" alt="Find a Pharmacy" />Find a Pharmacy</a></li>
+            <li><a href="#"><img src="/assets/images/people-icon.png" alt="My Network" />My Network</a></li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div><main id="site-main">
+  <div class="container">
+    <div id="page-content" class="home font-size-small">
+      <div class="row">
+        <div class="col-lg-10 col-lg-offset-2 col-md-9 col-md-offset-3">
+          <h1 class="page-title">My Arches Member Base</h1>
+          <div class="row">
+            <div class="col-md-4 col-bordered">
+              <h2>Get The Most Of It</h2>
+              <p>Make the most of your health and beneﬁts online:</p>
+              <ul>
+                <li>Access valuable health and wellness tools</li>
+                <li>View your claims and beneﬁt usage details</li>
+                <li>Sign up to receive email notiﬁcations for new explanations  of beneﬁts (EOBs), if they are available for your plan</li>
+                <li>Request, display or print your member ID card</li>
+                <li>And much more</li>
+              </ul>
+              <p>Have dependents? We’ve made it easier for you to access their information. We’ve also updated the options for family access. Learn More</p>
+              <p>On the go? Use Coventry Mobile</p>
+              <p>To best view this site, your screen resolution should be set at 1024 x 768 or higher.</p>
+            </div>
+            <div class="col-md-4 col-bordered">
+              <h2>Upcoming Events & Reminders</h2>
+              <div id="upcoming events" class="events-date-list">
+                <div class="item">
+                  <div class="item-date pull-left"><span class="month">Jan</span><br /><span class="day">10</span></div>
+                  <div class="item-event pull-right">
+                    <h3><a href="#">Scheduled Surgery</a><br />Jan 10, 2014</h3>
+                    <p>A brief description of procedure and what to expect. Link to specialist providing service to get familar <a href="#">more...</a></p>
+                  </div>
+                  <div class="clearfix"></div>
+                </div>
+                <div class="item">
+                  <div class="item-date pull-left"><span class="month">Jan</span><br /><span class="day">10</span></div>
+                  <div class="item-event pull-right">
+                    <h3><a href="#">Scheduled Surgery</a><br />Jan 1, 2014</h3>
+                    <p>A brief description of procedure and what to expect. Link to specialist providing service to get familar <a href="#">more...</a></p>
+                  </div>
+                  <div class="clearfix"></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="box tan-light">
+
+                <h2 class="box-title">Member Toolbox</h2>
+                <ul class="list-unstyled">
+                  <li><a href="#">My Health Guide</a></li>
+                  <li><a href="#">Calendar</a></li>
+                  <li><a href="#">Member Guide</a></li>
+                  <li><a href="#">Wellness Solutions</a></li>
+                  <li><a href="#">Benefits Usage</a></li>
+                  <li><a href="#">Prescription Information</a></li>
+                  <li><a href="#">Documents & Forms (pdf)</a></li>
+                </ul>
+              </div>            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+<footer id="footer-wrapper">
+  <div id="footer-bar"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-10 col-md-offset-2">
+        <ul id="footer-links" class="list-unstyled">
+          <li><a href="#">Members</a></li>
+          <li><a href="#">Providers</a></li>
+          <li><a href="#">Employers</a></li>
+          <li><a href="#">Brokers</a></li>
+          <li><a href="#">Quality Assurance</a></li>
+          <li><a href="#">Member Engagement</a></li>
+          <li><a href="#">Underwriters</a></li>
+          <li><a href="#">Executives</a></li>
+        </ul>
+        <div class="clearfix"></div>
+        <p class="copyright">&copy; Copyright 2014 Arches Health Plan All Rights Reserved</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript">
+  var elementPosition = jQuery('#side-navigation').offset();
+
+  jQuery(window).scroll(function(){
+    if(jQuery(window).scrollTop() > elementPosition.top){
+      jQuery('#side-navigation').css('position','fixed').css('top','0');
+    } else {
+      jQuery('#side-navigation').css('position','absolute').css('top','90px');
+    }
+  });
+  jQuery(function($) {
+    $('.popover-dismiss').popover({
+//          html: true
+    })
+  });
+</script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="/assets/javascript/bootstrap.js"></script>
+
+</body>
+</html>
