@@ -26,8 +26,8 @@
 </script>
 <div id="page-banner">
   <div class="container">
-    <div id="main-slider" style="height: 390px; width: 1280px; position: relative; ">
-      <div u="slides" style="width: 1280px; height: 390px;
+    <div id="main-slider" style="height: 390px; width: 1422px; position: relative; ">
+      <div u="slides" style="width: 1422px; height: 390px;
             overflow: hidden;">
         <div><img src="/assets/images/slider/arches-bikes.png" alt=""/></div>
         <div><img src="/assets/images/slider/arches-climb.png" alt=""/></div>
@@ -35,7 +35,7 @@
       </div>
       <!-- Bullet Navigator Skin Begin -->
       <!-- bullet navigator container -->
-      <div u="navigator" class="jssorb21" style="position: absolute; bottom: 16px; right: 55px;">
+      <div u="navigator" class="jssorb21" style="position: absolute; bottom: 16px; right: 140px;">
         <!-- bullet navigator item prototype -->
         <div u="prototype" style="POSITION: absolute; WIDTH: 19px; HEIGHT: 19px; text-align:center; line-height:19px; color:White; font-size:12px;"></div>
       </div>

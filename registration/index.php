@@ -7,7 +7,7 @@
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-2 col-md-9 col-md-offset-3">
                     <div class="registration-page members-registration">
-                        <h1 class="page-title">Members Registration</h2>
+                        <h1 class="page-title">Members Registration</h1>
                         <div class="breadcrumbs">
                           <ul class="links list-unstyled list-inline pull-left">
                             <li><a href="#">Welcome to Arches Portal</a></li>

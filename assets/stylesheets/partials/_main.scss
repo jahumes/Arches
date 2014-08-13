@@ -151,30 +151,33 @@ p a {
       right: 0px;
     }
   }
-  .arches-actions {
-    ul {
-      list-style: none;
-      li {
-        margin-bottom: 10px;
-        position: relative;
-        a, button {
-          line-height: 38px;
-          padding-right: 48px;
-          border:none;
-          background: none;
-          &:hover {
-            text-decoration: underline;
-          }
-          &:after {
-            content: " ";
-            position: absolute;
-            right:0;
-            top:0;
-            height: 38px;
-            width: 38px;
-            background: $tan;
-          }
+  .action-list {
+    list-style: none;
+    li {
+      margin-bottom: 10px;
+      position: relative;
+      a, button {
+        line-height: 38px;
+        padding-left: 48px;
+        border:none;
+        background: none;
+        text-transform: uppercase;
+        &:hover {
+          text-decoration: underline;
         }
+        &:after {
+          content: " ";
+          position: absolute;
+          left:0;
+          top:0;
+          height: 38px;
+          width: 38px;
+          background: $tan;
+        }
+      }
+    }
+    &.colored {
+      li {
         &:nth-child(2) {
           a:after, button:after {
             background: $orange;
@@ -194,6 +197,15 @@ p a {
           a:after, button:after {
             background: $tan-light;
           }
+        }
+      }
+    }
+    &.text-right {
+      a, button {
+        padding-right: 48px;
+        &:after {
+          right:0;
+          left:auto;
         }
       }
     }
@@ -242,7 +254,7 @@ p a {
       }
     }
     &.shadowed {
-      @include box-shadow(0,0,5px,rgba(0,0,0,0.5));
+      @include box-shadow( 0 0 10px 3px rgba(138,121,103,.6));
     }
     &.tan {
       background: $tan;
@@ -255,7 +267,7 @@ p a {
 #page-banner {
   background: $tan;
   #main-slider {
-    margin-left: -55px;
+    margin-left: -126px;
   }
   .jssorb21 div, .jssorb21 div:hover, .jssorb21 .av {
     background: url(/vendor/jssor/img/b21.png) no-repeat;

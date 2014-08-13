@@ -1,16 +1,27 @@
-<?php include('inc/page-head.php'); ?>
-<?php include('inc/page-header.php'); ?>
-<?php include('inc/page-sidebar.php'); ?>
-<?php include('inc/page-banner.php'); ?>
+<?php include('../inc/page-head.php'); ?>
+<?php include('../inc/page-header.php'); ?>
+<?php include('../inc/page-sidebar.php'); ?>
+<?php include('../inc/page-banner.php'); ?>
 <main id="site-main">
   <div class="container">
     <div id="page-content" class="home">
       <div class="row">
         <div class="col-lg-10 col-lg-offset-2 col-md-9 col-md-offset-3">
+          <h1 class="page-title">My Arches Member Base</h1>
           <div class="row">
             <div class="col-md-4 col-bordered">
-              <h2>Already a Member? Login</h2>
-              <?php include('inc/login-form.php'); ?>
+              <h2>Get The Most Of It</h2>
+              <p>Make the most of your health and beneﬁts online:</p>
+              <ul>
+                <li>Access valuable health and wellness tools</li>
+                <li>View your claims and beneﬁt usage details</li>
+                <li>Sign up to receive email notiﬁcations for new explanations  of beneﬁts (EOBs), if they are available for your plan</li>
+                <li>Request, display or print your member ID card</li>
+                <li>And much more</li>
+              </ul>
+              <p>Have dependents? We’ve made it easier for you to access their information. We’ve also updated the options for family access. Learn More</p>
+              <p>On the go? Use Coventry® Mobile</p>
+              <p>To best view this site, your screen resolution should be set at 1024 x 768 or higher.</p>
             </div>
             <div class="col-md-4 col-bordered">
               <h2>Upcoming Events & Reminders</h2>
@@ -35,26 +46,18 @@
             </div>
             <div class="col-md-4">
               <div class="box tan-light">
-                <h2 class="box-title">For Immediate Assistance</h2>
+
+                <h2 class="box-title">Member Toolbox</h2>
                 <ul class="list-unstyled">
-                  <li><span class="pull-left">Sign Up</span><span class="pull-right">801-770-1808</span></li>
-                  <li><span class="pull-left">On-Exchange<br />Member Support</span><span class="pull-right"><br />1-855-488-0620</span></li>
-                  <li><span class="pull-left">Off-Exchange<br />Member Support</span><span class="pull-right"><br />1-855-488-0619</span></li>
-                  <li><span class="pull-left">Provider Support</span><span class="pull-right">1-855-488-0620</span></li>
-                  <li><span class="pull-left">Pre-Authorization</span><span class="pull-right">1-800-879-0234</span></li>
-                  <li><span class="pull-left">Pharmacy<br />Technical Support</span><span class="pull-right"><br />1-800-922-1557</span></li>
+                  <li><a href="#">My Health Guide</a></li>
+                  <li><a href="#">Calendar</a></li>
+                  <li><a href="#">Member Guide</a></li>
+                  <li><a href="#">Wellness Solutions</a></li>
+                  <li><a href="#">Benefits Usage</a></li>
+                  <li><a href="#">Prescription Information</a></li>
+                  <li><a href="#">Documents & Forms (pdf)</a></li>
                 </ul>
                 <div class="clearfix"></div>
-<!--                  <h2 class="box-title">Member Toolbox</h2>-->
-<!--                  <ul class="list-unstyled">-->
-<!--                    <li><h3><a href="#">My Health Guide</a></h3></li>-->
-<!--                    <li><h3><a href="#">Calendar</a></h3></li>-->
-<!--                    <li><h3><a href="#">Member Guide</a></h3></li>-->
-<!--                    <li><h3><a href="#">Wellness Solutions</a></h3></li>-->
-<!--                    <li><h3><a href="#">Benefits Usage</a></h3></li>-->
-<!--                    <li><h3><a href="#">Prescription Information</a></h3></li>-->
-<!--                    <li><h3><a href="#">Documents & Forms (pdf)</a></h3></li>-->
-<!--                  </ul>-->
               </div>
             </div>
           </div>
@@ -63,4 +66,4 @@
     </div>
   </div>
 </main>
-<?php include('inc/page-footer.php'); ?>
+<?php include('../inc/page-footer.php'); ?>

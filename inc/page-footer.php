@@ -39,7 +39,7 @@
       });
     </script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="assets/javascript/bootstrap.js"></script>
+    <script src="/assets/javascript/bootstrap.js"></script>
 
   </body>
 </html>
