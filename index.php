@@ -4,7 +4,7 @@
 <?php include('inc/page-banner.php'); ?>
 <main id="site-main">
   <div class="container">
-    <div id="page-content" class="home">
+    <div id="page-content" class="home font-size-small">
       <div class="row">
         <div class="col-lg-10 col-lg-offset-2 col-md-9 col-md-offset-3">
           <div class="row">
