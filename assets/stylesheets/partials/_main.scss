@@ -126,6 +126,26 @@ table {
   th {
     font-weight: 400;
   }
+  &.table-bordered {
+    border-color: $tan;
+    border:none;
+  }
+}
+
+.table-bordered > thead > tr > th, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > td {
+  border-color: $tan;
+  border-top:0;
+  &:first-child {
+    border-left:0;
+  }
+  &:last-child {
+    border-right:0;
+  }
+}
+
+.table-bordered > tbody > tr > td {
+  border-top:0;
+  border-bottom:0;
 }
 
 .popover {
