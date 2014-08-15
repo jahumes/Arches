@@ -1,4 +1,4 @@
-<div class="box tan-light">
+<div class="box no-margin-top tan-light">
 
   <h2 class="box-title">Member Toolbox</h2>
   <ul class="list-unstyled">

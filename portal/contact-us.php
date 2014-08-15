@@ -23,7 +23,7 @@
                   <div class="box shadowed">
                     <div class="row">
                       <div class="col-md-10">
-                        <h2>Fill in the information and one our representatives will contact you.</h2>
+                        <h2>Fill in the information and one of our representatives will contact you.</h2>
                         <form action="">
                           <div class="form-group">
                             <input class="form-control" placeholder="Enter entire Conventry ID" type="text" required/>

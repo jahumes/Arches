@@ -129,10 +129,7 @@ p a {
   }
 }
 
-.table-striped > tbody > tr:nth-child(odd) > td, .table-striped > tbody > tr:nth-child(odd) > th {
-  background: $tan-light;
-  color: $gray-dark;
-}
+
 table {
   th {
     font-weight: 400;
@@ -141,7 +138,19 @@ table {
     border-color: $tan;
     border:none;
   }
+  &.table-striped > tbody > tr:nth-child(odd) > td, &.table-striped > tbody > tr:nth-child(odd) > th {
+    background: $tan-light;
+    color: $gray-dark;
+  }
+  &.table-striped > thead > tr > th {
+    border-bottom:0;
+  }
+  &.table-striped > tbody > tr > td, &.table-striped > thead > tr > td {
+    border-top:0;
+  }
 }
+
+
 
 .table-bordered > thead > tr > th, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > td {
   border-color: $tan;
@@ -180,12 +189,22 @@ table {
   min-height: 760px;
   @include box-shadow(2px 0px 1px 1px rgba(0, 0, 0, 0.2));
   padding: 20px 20px 40px 0;
+  ul {
+    padding-left: 20px;
+    &.list-unstyled {
+      margin-bottom: 30px;
+      padding-left:0;
+    }
+  }
   & > .row > .col-lg-10, & > .row > .col-md-10 {
     padding-left: 50px;
     padding-right: 50px;
   }
   &.home {
     min-height: 200px;
+    .col-bordered:after {
+      height: 380px;
+    }
   }
   .col-bordered {
     &:after {
@@ -202,9 +221,21 @@ table {
 
       top: 10px;
       width: 2px;
-      height: 100%;
+      height: 570px;
       display: block;
       right: 0px;
+    }
+    &.col-bordered-small {
+      min-height: 260px;
+      &:after {
+        height: 260px;
+      }
+    }
+    &.col-bordered-large {
+      min-height: 750px;
+      &:after {
+        height: 750px;
+      }
     }
     &.solid-top {
 
@@ -220,6 +251,11 @@ table {
         top: 0;
       }
 
+    }
+  }
+  .member-login {
+    .col-bordered:after {
+      height:360px;
     }
   }
   .action-list {
@@ -286,6 +322,9 @@ table {
     margin-bottom: 30px;
   }
   .events-date-list {
+    .item {
+      margin-bottom: 15px;
+    }
     .item-date {
       width: 14%;
       height: 42px;
@@ -294,7 +333,7 @@ table {
       text-align: center;
       @include gradient-horizontal($orange,$orange-dark);
       line-height: 1;
-      padding-top:4px;
+      padding-top:3px;
       .month {
         font-size: $font-size-base + 1;
         padding-left:2px;
@@ -315,9 +354,12 @@ table {
     background: #fff;
     padding: 20px 30px;
     margin: 20px 0;
+    &.no-margin-top {
+      margin-top:0;
+    }
     .box-title {
       margin-top:0;
-      margin-bottom:10px;
+      margin-bottom: 25px;
     }
     ul.list-unstyled li {
       margin-bottom: 8px;

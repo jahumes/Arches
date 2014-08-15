@@ -1,4 +1,4 @@
-<div class="box tan-light font-size-small">
+<div class="box tan-light font-size-small no-margin-top">
   <h2 class="box-title">For Immediate Assistance</h2>
   <ul class="list-unstyled">
     <li><span class="pull-left">Sign Up</span><span class="pull-right">801-770-1808</span></li>
