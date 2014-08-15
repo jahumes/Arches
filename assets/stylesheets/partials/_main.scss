@@ -202,11 +202,16 @@ table {
   }
   &.home {
     min-height: 200px;
-    .col-bordered:after {
-      height: 380px;
+    .col-bordered {
+      min-height: 380px;
+      &:after {
+        height: 380px;
+      }
     }
+
   }
   .col-bordered {
+    min-height: 570px;
     &:after {
       content: " ";
       position: absolute;
@@ -225,18 +230,25 @@ table {
       display: block;
       right: 0px;
     }
-    &.col-bordered-small {
+    &.col-bordered-sm {
       min-height: 260px;
       &:after {
         height: 260px;
       }
     }
-    &.col-bordered-large {
+    &.col-bordered-lg {
       min-height: 750px;
       &:after {
         height: 750px;
       }
     }
+    &.col-bordered-md {
+      min-height: 380px;
+      &:after {
+        height: 380px;
+      }
+    }
+
     &.solid-top {
 
       &:after {

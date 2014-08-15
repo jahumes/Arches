@@ -18,7 +18,7 @@
                                 <div class="col-md-11">
                                     <div class="box shadowed">
                                         <div class="row">
-                                            <div class="col-md-6 member-validation-form col-bordered">
+                                            <div class="col-md-6 member-validation-form col-bordered col-bordered-md">
                                                 <div class="row">
                                                     <div class="col-md-10 col-md-offset-1">
                                                         <h2>Already a Member? Login</h2>

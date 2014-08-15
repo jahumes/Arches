@@ -18,7 +18,7 @@
                 <div class="clearfix"></div>
               </div>
               <div class="row">
-                <div class="col-md-8 col-bordered col-bordered-large">
+                <div class="col-md-8 col-bordered col-bordered-lg">
                   <div class="box shadowed">
                     <form action="" class="form-horizontal">
                       <div class="form-group">
@@ -34,7 +34,7 @@
                       </div>
                     </form>
                     <div class="row">
-                      <div class="col-sm-4 col-bordered solid-top col-bordered-small">
+                      <div class="col-sm-4 col-bordered solid-top col-bordered-sm">
                         <ul class="list-unstyled text-right">
                           <li>Name:</li>
                           <li>Age:</li>

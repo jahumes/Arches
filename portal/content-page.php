@@ -27,7 +27,7 @@
                 </div>
               </div>
               <div class="row">
-                <div class="col-md-6 col-bordered">
+                <div class="col-md-6 col-bordered col-bordered-sm">
                   <h2>Member Governed</h2>
                   <p>Arches is organized much like a credit union. Over the next couple of years the members will truly govern Arches Health Plan. Today Arches is run by a transitional Board of Directors ArchesHealth.org/Board. By 2015 we will begin electing members to our Board. A majority will come from the ranks of our members. The remaining spots are reserved for individuals with expertise in health care and insurance such as actuaries or providers. To help prepare members for the Board, Arches will be oﬀering opportunities to participate in Arches Board advisory groups and regional councils starting in 2014. For more information, please send an email to Advocate@ArchesHealth.org.</p>
                 </div>
